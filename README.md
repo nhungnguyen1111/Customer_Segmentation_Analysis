@@ -38,6 +38,8 @@ Dữ liệu được cung cấp bởi công ty iFood, bao gồm các nội dung 
 
 ### Insights
 
+Chiến dịch thứ 6 (chiến dịch cuối) có tỷ lệ thành công cao nhất với tỷ lệ khách hàng chấp nhận offer sau chiến dịch là 14,91%, gấp khoảng 11 lần so với chiến dịch thứ 2 với tỷ lệ thấp nhất (1,34%).
+
 
 
 ### Đề xuất
