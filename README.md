@@ -28,8 +28,17 @@ Explore correlations between various factors and campaign success.
 
 ### Dữ liệu
 
-### Phương pháp phân tích dữ liệu
-Xem thêm tại file 
+Dữ liệu được cung cấp bởi công ty iFood, bao gồm các nội dung sau:
+- Số lượng chiến dịch thành công
+- Thông tin nhân khẩu học về khách hàng: thu nhập, giới tính... và hành vi mua như lần mua gần đây nhất, số lượt ghé trang web 1 tháng...
+- Thông tin về số lượng sản phẩm được bán:
+
+### Insights
+
+### Đề xuất
+
+### Tài liệu tham khảo
+
 
 ### Insights
 
