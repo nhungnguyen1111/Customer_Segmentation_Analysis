@@ -50,3 +50,4 @@ So sánh đặc điểm của khách hàng giữa 2 chiến dịch, từ đó l�
 
 https://www.neilsberg.com/insights/brazil-in-median-household-income/
 https://www.neilsberg.com/insights/topic/brazil-in-income/
+https://blog.tomorrowmarketers.org/phan-tich-rfm-la-gi/
