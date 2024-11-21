@@ -14,6 +14,7 @@ Tạo cột mới cho bins
 Income_Level
 = 
 
+Unpivot column
 
 ## Phân tích dữ liệu
 
