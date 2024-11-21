@@ -9,4 +9,12 @@ Quá trình xử lý dữ liệu và phân tích dữ liệu được thực hi�
 | 3  | Income | Format là Whole number | currency format | Chuyển thành currency R$, decimal = 2 |
 | 4  | Education | Cặp giá trị tương đồng "2n Cycle" - "Master", giá trị không rõ nghĩa "Basic", "Graduation" | Inconsistent values | Thay thế cặp giá trị tương đồng thành "Master's", "Graduation" -> "Bachelor's", "Basic" -> "Below High School"|
 
+Tạo cột mới cho bins 
+
+Income_Level
+= 
+
+
 ## Phân tích dữ liệu
+
+Create 2 reference tables to compare customer segmentations between last and 2nd campaigns.
