@@ -29,3 +29,23 @@ https://maestra.io/blog/marketing/rfm-analysis/
 Chia RFM thành 3 khoảng
 
 Vì không có dữ liệu liên quan đến Order_Date nên phân tích RFM tập trung vào 2 giá trị Recency và Monetary.
+https://hptpedia.hyper-trade.com/rm-analysis/
+
+| Recency  | Monetary | 
+| ------------- | ------------- | 
+| 1 - Gần đây nhất | 1 - Chi tiêu cao nhất | 
+| 2 - Trung bình | 2 - Trung bình |
+| 3 - Ít gần đây nhất | 3 - Chi tiêu thấp nhất |
+
+| RFM_Score  | Segment | 
+| ------------- | ------------- | 
+| 11  | Champion | 
+| 12  | Loyal |
+| 21  | Potential Loyalist |
+| 13  | Recent |
+| 22  | Needing Attention |
+| 32  | At Risk |
+| 31  | Can't Lose Them |
+| 23  | Hibernating |
+| 33  | Lost |
+
