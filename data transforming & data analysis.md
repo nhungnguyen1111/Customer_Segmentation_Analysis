@@ -30,6 +30,7 @@ Chia RFM thành 3 khoảng
 
 Vì không có dữ liệu liên quan đến Order_Date nên phân tích RFM tập trung vào 2 giá trị Recency và Monetary.
 https://hptpedia.hyper-trade.com/rm-analysis/
+https://maestra.io/blog/marketing/rfm-analysis/
 
 | Recency  | Monetary | 
 | ------------- | ------------- | 
