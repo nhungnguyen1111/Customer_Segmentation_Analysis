@@ -18,18 +18,14 @@ Unpivot column
 
 ## Phân tích dữ liệu
 
-Create 2 reference tables to compare customer segmentations between last and 2nd campaigns.
-
-Giá rượu: R$ 49
-https://www.expatistan.com/cost-of-living/country/brazil
-
-Giá đồ ngọt
-
-Giá thịt
-
-Giá hoa quả
-
-Giá cá
-
+Create 2 reference tables to compare customer segmentations between last and 2nd campaigns
 
 https://www.linkedin.com/pulse/brazils-ifood-wasting-money-wrong-customers-vivek-poovathoor-m37jf?trk=public_post_main-feed-card_feed-article-content
+
+Phân tích RFM:
+https://blog.tomorrowmarketers.org/phan-tich-rfm-la-gi/
+https://maestra.io/blog/marketing/rfm-analysis/
+
+Chia RFM thành 3 khoảng
+
+Vì không có dữ liệu liên quan đến Order_Date nên phân tích RFM tập trung vào 2 giá trị Recency và Monetary.
