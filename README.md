@@ -42,7 +42,7 @@ Qua phân tích tệp khách hàng phản hồi ở chiến dịch cuối (tỷ 
 Nhân khẩu học
 - Tập trung vào nhóm khách hàng có độ tuổi từ 25 đến 64 tuổi
 - Đây cũng là nhóm có mức thu nhập trung bình dưới R$ 63.192,19
-- Những người đã kết hôn, chủ yếu là chưa có con
+- Những người đã kết hôn, dưới 2 con
 - Có hiểu biết về sản phẩm (có học vấn từ đại học trở lên)
 
 Đặc điểm hành vi
