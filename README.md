@@ -36,17 +36,17 @@ Dữ liệu được cung cấp bởi công ty iFood, bao gồm các nội dung 
 - Thông tin nhân khẩu học về khách hàng: thu nhập, giới tính... và hành vi mua như lần mua gần đây nhất, số lượt ghé trang web 1 tháng...
 - Thông tin về số lượng sản phẩm được bán:
 
-### Insights
+### Insights 
 
-Qua phân tích tệp khách hàng phản hồi ở chiến dịch cuối, rút ra đặc điểm về khách hàng mục tiêu như sau. Đặc điểm phân tích từ last campaign không có khác biệt với 2 chiến dịch thứ 4 và thứ 3 (với tỷ lệ thành công lần lượt là 7,47% và 7,29%)
+Qua phân tích tệp khách hàng phản hồi ở chiến dịch cuối (tỷ lệ phản hồi là 14,93%), rút ra đặc điểm về khách hàng mục tiêu như sau. Đặc điểm phân tích từ last campaign không có khác biệt với 2 chiến dịch thứ 4 và thứ 3 (với tỷ lệ thành công lần lượt là 7,47% và 7,29%)
 Nhân khẩu học
 - Tập trung vào nhóm khách hàng có độ tuổi từ 25 đến 64 tuổi
-- Đây cũng là nhóm có mức thu nhập trung bình dưới 63.192,19
-- Những người đã kết hôn và có dưới 3 con, chủ yếu là chưa có con
+- Đây cũng là nhóm có mức thu nhập trung bình dưới R$ 63.192,19
+- Những người đã kết hôn, chủ yếu là chưa có con
 - Có hiểu biết về sản phẩm (có học vấn từ đại học trở lên)
 
 Đặc điểm hành vi
-- Tập trung nhiều hơn vào cửa hàng vật lý, mặc dù không có chênh lệch nhiều số lượng giao dịch mua sắm ở 3 nền tảng: cửa hàng vật lý, catalog và website
+- Mua sắm vào cửa hàng vật lý, mặc dù không có chênh lệch nhiều số lượng giao dịch mua sắm ở 3 nền tảng: cửa hàng vật lý, catalog và website
 - Tổng hợp dữ liệu từ 5 chiến dịch trước cho thấy 3 nhóm KH chiếm tỷ lệ cao lần lượt là: Champion (23,16%), Can't Lose Them (22,57%) và Potential Loyalist (21,37%). Những nhóm còn lại đều dưới 12%.
   Trong giai đoạn ngắn hạn, cần tập trung vào 3 nhóm này trước và dài hạn sẽ thiết lập chiến lược cho từng nhóm khách hàng.
 
