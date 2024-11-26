@@ -10,6 +10,7 @@ Quá trình xử lý dữ liệu và phân tích dữ liệu được thực hi�
 | 4  | Education | Cặp giá trị tương đồng "2n Cycle" - "Master", giá trị không rõ nghĩa "Basic", "Graduation" | Inconsistent values | Thay thế cặp giá trị tương đồng thành "Master's", "Graduation" -> "Bachelor's", "Basic" -> "Below High School"|
 | 5  | Year_Birth | Năm sinh là 1893, 1899 và 1900 | illogical | Xóa hàng |
 | 6 | Income | 24 giá trị null | null values | Thay thế bằng median income |
+| 7 | Income | Giá trị R$ 666.666 lớn hơn hẳn so với giá trị lớn thứ 2 (R$ 162.397) | outlier | Loại bỏ |
 
 Tạo cột mới cho bins 
 
