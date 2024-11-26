@@ -38,7 +38,7 @@ Dữ liệu được cung cấp bởi công ty iFood, bao gồm các nội dung 
 
 ### Phương pháp phân tích dữ liệu
 
-Xem thêm tại file [Data cleaning and tranforming]()
+Xem thêm tại file [xử lý và phân tích dữ liệu](https://github.com/nhungnguyen1111/Customer_Segmentation_Analysis/blob/256484406c697dba8c071bc9d92e887fd8a3fdd9/data%20transforming%20%26%20data%20analysis.md)
 
 ### Insights 
 
