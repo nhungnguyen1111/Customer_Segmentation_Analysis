@@ -11,6 +11,11 @@
 - [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 
 ### Tổng quan dự án
+
+IFood là nền tảng đặt đồ ăn online hàng đầu tại Brazil và phục vụ gần một triệu hành khách một năm. Danh mục sản phẩm của iFood đa dạng, bao gồm: rượu, các sản phẩm làm từ thịt, trái cây, cá và đồ ngọt. Khách hàng có thể đặt hàng thông qua 3 kênh: cửa hàng vật lý, catalog và website của công ty. Xét ở phương diện toàn cầu, iFood có lượng doanh thu ổn định trong suốt 3 năm qua, tuy nhiên, tăng trưởng lợi nhuận trong 3 năm tới không có nhiều kì vọng. Vậy nên, dự án này sẽ nhằm cải thiện hiệu quả các hoạt động marketing, bằng cách phân tích dữ liệu từ các chiến dịch trong quá khứ và xác định chiến lược phù hợp cho các chiến dịch trong tương lai.
+
+Chiến dịch thứ 6 (sắp tới) của iFood hướng đến việc ra mắt sản phẩm mới. 1 cuộc khảo sát đã được tiến hành trên 2.240 khách hàng thông qua điện thoại. 
+
 IFood is the lead food delivery app in Brazil, present in over a thousand cities.
 Consider a well-established company operating in the retail food sector. Presently they have around several hundred thousands of registered customers and serve almost one million consumers a year. They sell products from 5 major categories: wines, rare meat products, exotic fruits, specially prepared fish and sweet products. These can further be divided into gold and regular products. The customers can order and acquire products through 3 sales channels: physical stores, catalogs and company's website. Globally, the company had solid revenues and a healthy bottom line in the past 3 years, but the profit growth perspectives for the next 3 years are not promising... For this reason, several strategic initiatives are being considered to invert this situation. One is to improve the performance of marketing activities, with a special focus on marketing campaigns.
 
@@ -20,14 +25,11 @@ The objective of the team is to build a predictive model that will produce the h
 
 ### Mục tiêu
 
-Mục tiêu của dự án là nâng cao hiệu quả của chiến dịch marketing của iFood bằng cách phân tích dữ liệu của những chiến dịch trước đây, từ đó xây dựng chiến lược marketing hiệu quả.
+Mục tiêu của dự án là phân tích đặc điểm hành vi khách hàng sẵn sàng mua sản phẩm mới.
 
-- Đặc điểm của những chiến dịch thành công là gì? Xác suất thành công? 
-Loại chiến dịch nào hiệu quả hơn? 
-Sản phẩm nào bán chạy hơn? Gắn với chiến dịch ntn?
-Explore correlations between various factors and campaign success.
-- Xác định những yếu tố ảnh hưởng đến sự thành công của chiến dịch?
-Đặc điểm của tệp KH trong mỗi chiến dịch?
+Mục tiêu cụ thể được giải đáp thông qua những câu hỏi sau:
+- Những chiến dịch trước đó có sự khác biệt nhiều về khách hàng so với chiến dịch thứ 6 không?
+- Đặc điểm về nhân khẩu học và hành vi của tệp khách hàng tiềm năng là gì?
 
 ### Dữ liệu
 
@@ -38,14 +40,16 @@ Dữ liệu được cung cấp bởi công ty iFood, bao gồm các nội dung 
 
 ### Insights 
 
-Qua phân tích tệp khách hàng phản hồi ở chiến dịch cuối (tỷ lệ phản hồi là 14,93%), rút ra đặc điểm về khách hàng mục tiêu như sau. Đặc điểm phân tích từ last campaign không có khác biệt với 2 chiến dịch thứ 4 và thứ 3 (với tỷ lệ thành công lần lượt là 7,47% và 7,29%)
-Nhân khẩu học
+Qua phân tích tệp khách hàng phản hồi ở chiến dịch cuối (tỷ lệ phản hồi là 14,93%), rút ra đặc điểm về khách hàng mục tiêu như sau. Đặc điểm phân tích từ last campaign không có khác biệt với 2 chiến dịch thứ 4 và thứ 3 (với tỷ lệ thành công lần lượt là 7,47% và 7,29%). Như vậy, đặc điểm về nhân khẩu học của khách hàng sẽ được rút ra từ phân tích dựa trên chiến dịch thứ 6.
+![](https://i.imgur.com/FKdWPMg.png)
+
+#### Nhân khẩu học
 - Tập trung vào nhóm khách hàng có độ tuổi từ 25 đến 64 tuổi
 - Đây cũng là nhóm có mức thu nhập trung bình dưới R$ 63.192,19
 - Những người đã kết hôn, dưới 2 con
 - Có hiểu biết về sản phẩm (có học vấn từ đại học trở lên)
 
-Đặc điểm hành vi
+#### Hành vi
 - Mua sắm vào cửa hàng vật lý, mặc dù không có chênh lệch nhiều số lượng giao dịch mua sắm ở 3 nền tảng: cửa hàng vật lý, catalog và website
 - Tổng hợp dữ liệu từ 5 chiến dịch trước cho thấy 3 nhóm KH chiếm tỷ lệ cao lần lượt là: Champion (23,16%), Can't Lose Them (22,57%) và Potential Loyalist (21,37%). Những nhóm còn lại đều dưới 12%.
   Trong giai đoạn ngắn hạn, cần tập trung vào 3 nhóm này trước và dài hạn sẽ thiết lập chiến lược cho từng nhóm khách hàng.
