@@ -7,8 +7,6 @@
 - [Dữ liệu](#dữ-liệu)
 - [Phương pháp phân tích dữ liệu](#phương-pháp-phân-tích-dữ-liệu)
 - [Insights](#insights)
-- [Đề xuất](#đề-xuất)
-- [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 
 ### Tổng quan dự án
 
@@ -38,10 +36,15 @@ Dữ liệu được cung cấp bởi công ty iFood, bao gồm các nội dung 
 - Thông tin nhân khẩu học về khách hàng: thu nhập, giới tính... và hành vi mua như lần mua gần đây nhất, số lượt ghé trang web 1 tháng...
 - Thông tin về số lượng sản phẩm được bán:
 
+### Phương pháp phân tích dữ liệu
+
+Xem thêm tại file [Data cleaning and tranforming]()
+
 ### Insights 
 
 Qua phân tích tệp khách hàng phản hồi ở chiến dịch cuối (tỷ lệ phản hồi là 14,93%), rút ra đặc điểm về khách hàng mục tiêu như sau. Đặc điểm phân tích từ last campaign không có khác biệt với 2 chiến dịch thứ 4 và thứ 3 (với tỷ lệ thành công lần lượt là 7,47% và 7,29%). Như vậy, đặc điểm về nhân khẩu học của khách hàng sẽ được rút ra từ phân tích dựa trên chiến dịch thứ 6.
-![](https://i.imgur.com/FKdWPMg.png)
+
+![](https://i.imgur.com/F1AirQg.png)
 
 #### Nhân khẩu học
 - Tập trung vào nhóm khách hàng có độ tuổi từ 25 đến 64 tuổi
@@ -49,15 +52,16 @@ Qua phân tích tệp khách hàng phản hồi ở chiến dịch cuối (tỷ 
 - Những người đã kết hôn, dưới 2 con
 - Có hiểu biết về sản phẩm (có học vấn từ đại học trở lên)
 
+![](https://i.imgur.com/ck3f4ac.png)
+
 #### Hành vi
 - Mua sắm vào cửa hàng vật lý, mặc dù không có chênh lệch nhiều số lượng giao dịch mua sắm ở 3 nền tảng: cửa hàng vật lý, catalog và website
 - Tổng hợp dữ liệu từ 5 chiến dịch trước cho thấy 3 nhóm KH chiếm tỷ lệ cao lần lượt là: Champion (23,16%), Can't Lose Them (22,57%) và Potential Loyalist (21,37%). Những nhóm còn lại đều dưới 12%.
   Trong giai đoạn ngắn hạn, cần tập trung vào 3 nhóm này trước và dài hạn sẽ thiết lập chiến lược cho từng nhóm khách hàng.
 
+![](https://i.imgur.com/8i0idHJ.png)
+
+
+![](https://i.imgur.com/Ngoynz7.png)
+
 Tổng hợp chân dung khách hàng
-
-### Tài liệu tham khảo
-
-https://www.neilsberg.com/insights/brazil-in-median-household-income/
-https://www.neilsberg.com/insights/topic/brazil-in-income/
-https://blog.tomorrowmarketers.org/phan-tich-rfm-la-gi/
