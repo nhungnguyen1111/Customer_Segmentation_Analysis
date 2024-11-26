@@ -40,6 +40,8 @@ Dữ liệu được cung cấp bởi công ty iFood, bao gồm các nội dung 
 
 Xem thêm tại file [xử lý và phân tích dữ liệu](https://github.com/nhungnguyen1111/Customer_Segmentation_Analysis/blob/256484406c697dba8c071bc9d92e887fd8a3fdd9/data%20transforming%20%26%20data%20analysis.md)
 
+Xem thêm tại file <a href="https://github.com/nhungnguyen1111/Customer_Segmentation_Analysis/blob/256484406c697dba8c071bc9d92e887fd8a3fdd9/data%20transforming%20%26%20data%20analysis.md" target="_blank">xử lý và phân tích dữ liệu</a>
+
 ### Insights 
 
 Qua phân tích tệp khách hàng phản hồi ở chiến dịch cuối (tỷ lệ phản hồi là 14,93%), rút ra đặc điểm về khách hàng mục tiêu như sau. Đặc điểm phân tích từ last campaign không có khác biệt với 2 chiến dịch thứ 4 và thứ 3 (với tỷ lệ thành công lần lượt là 7,47% và 7,29%). Như vậy, đặc điểm về nhân khẩu học của khách hàng sẽ được rút ra từ phân tích dựa trên chiến dịch thứ 6.
