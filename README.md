@@ -47,20 +47,23 @@ Khách hàng mục tiêu của chiến dịch sắp tới là tệp khách hàng
 - Học vấn: tối thiểu từ Đại học trở lên
 - Thu nhập hàng năm: từ R$ 20K đến R$ 80K
 
-![](https://i.imgur.com/ck3f4ac.png)
+![](https://i.imgur.com/7O3gjRk.png)
 
 #### Hành vi
 
-Kênh mua sắm chiếm đa số là cửa hàng vật lý. Mặc dù iFood bắt nguồn từ nền tảng online nhưng số lượng giao dịch lại từ kênh bán hàng offline. 
-Điều này có thể bắt nguồn từ một số nguyên nhân sau đây:
+Kênh mua sắm chiếm đa số là cửa hàng vật lý. Mặc dù iFood bắt nguồn từ nền tảng online nhưng số lượng giao dịch chủ yếu đến từ kênh bán hàng offline, điều này cho thấy iFood đã kết hợp mô hình hybrid: bao gồm cửa hàng và online.
 
-- 
+=> **Đề xuất**: Chiến dịch sắp tới có thể tận dụng kênh phân phối này như sau:
 
-- Tổng hợp dữ liệu từ 5 chiến dịch trước cho thấy 3 nhóm KH chiếm tỷ lệ cao lần lượt là: Champion (23,16%), Can't Lose Them (22,57%) và Potential Loyalist (21,37%). Những nhóm còn lại đều dưới 12%.
-  Trong giai đoạn ngắn hạn, cần tập trung vào 3 nhóm này trước và dài hạn sẽ thiết lập chiến lược cho từng nhóm khách hàng.
+- Kênh bán hàng offline: tiếp cận tệp đối tượng khách hàng ở các thành phố có mật độ dân cư đông đúc, cụ thể là ở các cửa hàng của iFood có lượng khách lớn.
+- Kênh online: Điểm mạnh của kênh này là thu hút được lượng khách hàng nhiều hơn nhưng với danh mục sản phẩm của iFood là rượu, thịt, cá..., mua sắm online gặp cản trở là thiếu thông tin về sản phẩm và giải đáp từ nhân viên. Do đó, website và catalog cần nêu rõ thông tin chi tiết về sản phẩm (ví dụ như tên hãng rượu, khối lượng, tên phần thịt...) và hotline hỗ trợ của chính iFood và các nhà hàng liên quan.
 
-![](https://i.imgur.com/7O3gjRk.png)
+![](https://i.imgur.com/8i0idHJ.png)
 
+Qua phân tích RFM cho thấy khoảng thời gian từ lần cuối khách hàng mua cho đến hiện tại trung bình là 49 ngày và giá trị trung bình cho mỗi giao dịch là R$ 592. Đối với các loại thực phẩm như thịt, cá thì con số 49 ngày vẫn còn khá dài và cần thu hẹp.
+
+Tổng hợp dữ liệu từ 5 chiến dịch trước cho thấy 3 nhóm khách hàng chiếm tỷ lệ cao lần lượt là: Champion (23,16%), Can't Lose Them (22,57%) và Potential Loyalist (21,37%); những nhóm còn lại đều dưới 12%. Điều này cho thấy 
+Chiến dịch sắp tới cần tập trung vào 3 nhóm này trước và đồng thời thiết lập chiến lược dài hạn cho từng nhóm khách hàng.
 
 ![](https://i.imgur.com/Ngoynz7.png)
 
