@@ -42,21 +42,56 @@ Add conditional column:
 
 **Phân tích RFM**
 
-https://blog.tomorrowmarketers.org/phan-tich-rfm-la-gi/
-https://maestra.io/blog/marketing/rfm-analysis/
-
-Chia RFM thành 3 khoảng
-
-Vì không có dữ liệu liên quan đến Order_Date để tính Frequency nên phân tích RFM tập trung vào 2 giá trị Recency và Monetary.
-https://hptpedia.hyper-trade.com/rm-analysis/
-
-Xếp hạng Recency và Monetary như các bảng dưới đây:
-
+Chia RFM thành 3 khoảng như bảng dưới:
 | Recency  | Monetary | 
 | ------------- | ------------- | 
 | 1 - Gần đây nhất | 1 - Chi tiêu cao nhất | 
 | 2 - Trung bình | 2 - Trung bình |
 | 3 - Ít gần đây nhất | 3 - Chi tiêu thấp nhất |
+
+Vì không có dữ liệu liên quan đến Order_Date để tính Frequency nên phân tích RFM tập trung vào 2 giá trị Recency và Monetary.
+
+- Tính tổng giá trị giao dịch ứng với mỗi khách hàng
+```
+Monetary_Value = 
+SUM('Product'[Product_Amount])
+```
+
+- Tạo bảng riêng cho phân tích RFM
+```
+RFM = 
+SUMMARIZE(ifood_data,ifood_data[ID], [Recency], "Monetary", [Monetary_Value])
+```
+
+- Tính xếp hạng Recency
+```
+R_Score = 
+SWITCH(
+    TRUE(),
+    [Recency] <= PERCENTILEX.INC(ALL('RFM'), [Recency], 1/3), "1",
+    [Recency] <= PERCENTILEX.INC(ALL('RFM'), [Recency], 2/3), "2",
+    "3"
+)
+```
+
+- Tính xếp hạng Monetary:
+```
+M_Score = 
+SWITCH(
+    TRUE(),
+    [Monetary] >= PERCENTILEX.INC(ALL('RFM'), [Monetary], 1/3), "1",
+    [Monetary] >= PERCENTILEX.INC(ALL('RFM'), [Monetary], 2/3), "2",
+    "3"
+)
+```
+
+- Tổng hợp thành xếp hạng RFM
+```
+RFM_Score = 
+CONCATENATE([R_Score],[M_Score])
+```
+
+- Phân chia RFM thành các segment
 
 | RFM_Score  | Segment | 
 | ------------- | ------------- | 
@@ -70,3 +105,19 @@ Xếp hạng Recency và Monetary như các bảng dưới đây:
 | 23  | Hibernating |
 | 33  | Lost |
 
+```
+Segment = 
+SWITCH(
+    TRUE(),
+    [RFM_Score] = 11, "Champion",
+    [RFM_Score] = 12, "Loyal",
+    [RFM_Score] = 21, "Potential Loyalist",
+    [RFM_Score] = 13, "Recent",
+    [RFM_Score] = 22, "Needing Attention",
+    [RFM_Score] = 32, "At Risk",
+    [RFM_Score] = 31, "Can't Lose Them",
+    [RFM_Score] = 23, "Hibernating", "Lost")
+```
+
+- Kết quả cuối cùng của bảng RFM như sau:
+![{E1B0199E-ED7C-4002-AD70-9FF070F5DAA3}](https://github.com/user-attachments/assets/87f4b578-42c9-4527-97b6-95b172424f97)
