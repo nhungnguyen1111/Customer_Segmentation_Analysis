@@ -41,28 +41,25 @@ Vì tỷ lệ thành công ở chiến dịch cuối đạt mức 14,93%, cao h�
 
 #### Nhân khẩu học
 
-Khách hàng mục tiêu của chiến dịch sắp tới có đặc điểm nhân khẩu học như sau:
+Khách hàng mục tiêu của chiến dịch sắp tới là tệp khách hàng trưởng thành, có thu nhập từ trung bình đến cao, cụ thể là:
 
 - Độ tuổi: từ 25 đến 64 tuổi
 - Học vấn: tối thiểu từ Đại học trở lên
 - Thu nhập hàng năm: từ R$ 20K đến R$ 80K
 
-Đây là tệp khách hàng trưởng thành, có thu nhập từ trung bình đến cao
-
 ![](https://i.imgur.com/ck3f4ac.png)
 
 #### Hành vi
 
-Về hành vi:
+Kênh mua sắm chiếm đa số là cửa hàng vật lý. Mặc dù iFood bắt nguồn từ nền tảng online nhưng số lượng giao dịch lại từ kênh bán hàng offline. 
+Điều này có thể bắt nguồn từ một số nguyên nhân sau đây:
 
-- Kênh mua sắm chiếm đa số là cửa hàng vật lý.
-  Mặc dù iFood bắt nguồn từ nền tảng online nhưng số lượng giao dịch lại từ kênh bán hàng offline. Điều này có thể cho thấy rằng 
-- Mua sắm vào cửa hàng vật lý, mặc dù không có chênh lệch nhiều số lượng giao dịch mua sắm ở 3 nền tảng: cửa hàng vật lý, catalog và website
+- 
 
 - Tổng hợp dữ liệu từ 5 chiến dịch trước cho thấy 3 nhóm KH chiếm tỷ lệ cao lần lượt là: Champion (23,16%), Can't Lose Them (22,57%) và Potential Loyalist (21,37%). Những nhóm còn lại đều dưới 12%.
   Trong giai đoạn ngắn hạn, cần tập trung vào 3 nhóm này trước và dài hạn sẽ thiết lập chiến lược cho từng nhóm khách hàng.
 
-![](https://i.imgur.com/8i0idHJ.png)
+![](https://i.imgur.com/7O3gjRk.png)
 
 
 ![](https://i.imgur.com/Ngoynz7.png)
