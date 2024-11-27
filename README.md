@@ -62,11 +62,8 @@ Kênh mua sắm chiếm đa số là cửa hàng vật lý. Mặc dù iFood bắ
 
 Qua phân tích RFM cho thấy khoảng thời gian từ lần cuối khách hàng mua cho đến hiện tại trung bình là 49 ngày và giá trị trung bình cho mỗi giao dịch là R$ 592. Đối với các loại thực phẩm như thịt, cá thì con số 49 ngày vẫn còn khá dài và cần thu hẹp.
 
-Tổng hợp dữ liệu từ 5 chiến dịch trước cho thấy 3 nhóm khách hàng chiếm tỷ lệ cao lần lượt là: Champion (23,16%), Can't Lose Them (22,57%) và Potential Loyalist (21,37%); những nhóm còn lại đều dưới 12%. Điều này cho thấy 
-Chiến dịch sắp tới cần tập trung vào 3 nhóm này trước và đồng thời thiết lập chiến lược dài hạn cho từng nhóm khách hàng.
+Tổng hợp dữ liệu từ 5 chiến dịch trước cho thấy 3 nhóm khách hàng chiếm tỷ lệ cao lần lượt là: Champion (23,16%), Can't Lose Them (22,57%) và Potential Loyalist (21,37%); những nhóm còn lại đều dưới 12%. Điều này cho thấy tệp khách hàng hiện tại của iFood chủ yếu là nhóm khách hàng trung thành có mức độ chi tiêu cao. Tuy nhiên, riêng với nhóm Can't Lose Them khi không có giao dịch nào xảy ra gần đây phản ánh rằng iFood cần có những hoạt động cụ thể như nhắn tin hoặc gửi email hỏi thăm khách hàng. 
+
+Chiến dịch sắp tới cần tập trung vào 3 nhóm này trước và đồng thời thiết lập chiến lược quản trị khách hàng dài hạn cho từng nhóm khách hàng.
 
 ![](https://i.imgur.com/Ngoynz7.png)
-
-#### Chân dung khách hàng
-
-
